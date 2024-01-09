@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter-10 HTML Form</title>
+  </head>
+  <body>
+    <h2>HTML Form for Student Registration</h2>
+
+    <form action="address.php">
+
+      <div>
+        <label for="fname">First Name : </label>
+        <input type="text" name="fname" />
+      </div>
+
+      <br>
+      
+      <div>
+        <label for="lname">Last Name : </label>
+        <input type="text" name="lname" />
+      </div>
+
+      <br>
+
+      <div>
+        <label for="email">Email : </label>
+         <input type="email" name="email" required>
+      </div>
+      <br>
+
+      <div>
+        <label for="telephone">Phone : </label>
+         <input type="tel" name="telephone">
+      </div>
+
+      <br>
+      <div>
+        <label for="">D.O.B : </label>
+        <input type="date" name="birth">
+      </div>
+
+      <br>
+      <div>
+        <label for="">Feedback</label>
+       <textarea name=""  cols="50" rows="20">
+       
+       </textarea>
+      </div>
+
+      <br>
+      <div>
+        <label for="">Password : </label>
+        <input type="password" name="pass" id="">
+      </div>
+
+      <br>
+
+      <div>
+        <label for="">Please confirm : </label>
+        <input type="checkbox" checked>
+      </div>
+      <br>
+      <div>
+        <label for="">Gender :  </label>
+        Male<input type="radio" name="gender">  Female <input type="radio" name="gender" >
+      </div>
+
+      
+      <br>
+      
+      <div>
+          <label for="">Select State : </label>
+          <select name="" id="" size="3">
+              <option value="">Goa</option>
+              <option value="" selected>Maharashtra</option>
+              <option value="">Bihar</option>
+              <option value="">Bangal</option>
+            </select>
+        </div>
+        <br>
+        
+        <div>
+            <label for="">Select Language : </label>
+            <select name="" id="" multiple>
+                <option value="">Hindi</option>
+                <option value="" selected>English</option>
+                <option value="">Bangali</option>
+                <option value="">Mrathi</option>
+            </select>
+        </div>
+        <br>
+        <div>
+          <button type="submit">Submit Now</button>
+          <button type="reset">Reset</button>
+         </div>
+
+    </form>
+  </body>
+</html>
